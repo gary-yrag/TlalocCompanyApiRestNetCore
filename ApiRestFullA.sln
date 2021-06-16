@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5EBE13F8-A3CC-407F-A406-F9AD27A0736F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{19ED7E81-2FDA-49E4-A2A2-462C773248EB}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ApiRestFullA", "src\ApiRestFullA\ApiRestFullA.xproj", "{B051488C-2D98-4DF8-8FB8-4F0CB16DD1B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B051488C-2D98-4DF8-8FB8-4F0CB16DD1B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B051488C-2D98-4DF8-8FB8-4F0CB16DD1B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B051488C-2D98-4DF8-8FB8-4F0CB16DD1B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B051488C-2D98-4DF8-8FB8-4F0CB16DD1B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B051488C-2D98-4DF8-8FB8-4F0CB16DD1B5} = {5EBE13F8-A3CC-407F-A406-F9AD27A0736F}
+	EndGlobalSection
+EndGlobal
