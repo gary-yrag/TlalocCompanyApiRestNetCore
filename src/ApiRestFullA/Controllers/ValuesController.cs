@@ -5,10 +5,11 @@ using ApiRestFullA.Models;
 
 namespace ApiRestFullA.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("Tlaloc/[controller]")]
     public class ValuesController : Controller
     {
-        [HttpGet("{id}")]
+        //[HttpGet("{id}")]
+        [HttpGet("getCompany/{id}")]
         public IActionResult Get(string id)
         {
             DataSuin d = new DataSuin();

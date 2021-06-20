@@ -11,7 +11,8 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/values",
+      //"launchUrl": "api/values",
+      "launchUrl": "Tlaloc",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -19,7 +20,8 @@
     "ApiRestFullA": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "http://localhost:5000/api/values",
+      //"launchUrl": "http://localhost:5000/api/values",
+      "launchUrl": "http://localhost:5000/Tlaloc",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

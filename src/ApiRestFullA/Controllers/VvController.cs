@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using ApiRestFullA.inter;
 using ApiRestFullA.Models;
@@ -11,11 +8,11 @@ using ApiRestFullA.Models;
 
 namespace ApiRestFullA.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("Tlaloc/[controller]")]
     public class VvController : Controller
     {
 
-        [HttpGet("{id}")]
+        [HttpGet("getCompany/{id}")]
         public IActionResult getCompany(string id) {
             DataSuin d = new DataSuin();
             Company c = d.getCompany(id);
